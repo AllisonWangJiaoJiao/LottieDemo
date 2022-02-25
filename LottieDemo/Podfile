@@ -1,0 +1,12 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'LottieDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for LottieDemo
+#    pod 'lottie-ios'
+  pod 'lottie-ios', '2.5.3' #新版的已经不支持OC了,这里指定2.5.3的老版本
+
+end
